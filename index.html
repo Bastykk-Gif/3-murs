@@ -526,7 +526,7 @@ function update(dt){
   updFx(dt);
   if(state==='play'){
     if(grounded()){lockT+=dt;if(lockT>.5)lock(false)}
-    else{lockT=0;acc+=dt;const iv=.8;while(acc>=iv&&piece&&!grounded()){acc-=iv;piece.y++}}
+    else{lockT=0;acc+=dt;const iv=.8/(1+.005*lines);while(acc>=iv&&piece&&!grounded()){acc-=iv;piece.y++}}
   }else if(state==='weld'){timer-=dt;if(timer<=0)askDir()}
   else if(state==='blast'){timer-=dt;shake=Math.max(shake,(1-timer/blastD)*(1.5+5*fxI+3*fxD));
     if(Math.random()<.25+.6*fxI+.5*fxD){const fr=fullRows(walls[cur]);if(fr.length){const r=fr[Math.random()*fr.length|0];spark(ox+rnd(COLS*cell),oy+(r+.5)*cell,.8)}}
