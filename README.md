@@ -18,7 +18,7 @@ Ouvre `index.html` dans un navigateur, ou la page GitHub Pages du dépôt si ell
 | Tourner | flèche haut ou X | B | bouton rose |
 | Tourner (inverse) | W (AZERTY) ou Ctrl | A | bouton bleu |
 | Réserve | C ou Maj | LB / RB | bouton RÉSERVE |
-| Pause | Échap | Start | bouton PAUSE |
+| Pause (reprendre ou recommencer) | Échap | Start | bouton PAUSE |
 
 ## Fichiers
 
