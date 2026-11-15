@@ -1,6 +1,6 @@
-# 3 MURS
+# TERTRIS
 
-Jeu de blocs pour navigateur, jouable sur smartphone, PC (clavier) et manette.
+Jeu de blocs sur une tour à 3 murs (ter = 3), pour navigateur, jouable sur smartphone, PC (clavier) et manette.
 
 Les pièces tombent sur une tour à 3 murs. Une ligne complète ne disparaît pas : elle reste soudée, et tu choisis vers quel mur pivoter. Quand chacun des 3 murs a au moins 4 lignes prêtes, tout s'écroule d'un coup. Chaque ligne en plus avant l'écroulement ajoute 50 % au gain.
 
